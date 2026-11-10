@@ -1,0 +1,18 @@
+{
+  "name": "campus-court",
+  "version": "2.0.0",
+  "description": "Campus Court — a fair campus dispute court with an AI judge and Card 10 fair-resource sharing. By The Dark Triad.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test",
+    "test:spec": "node --test --test-reporter=spec"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "nodemailer": "^10.5.0"
+  }
+}

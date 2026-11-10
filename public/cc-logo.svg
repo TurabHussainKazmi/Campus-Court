@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Campus Court logo">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e7c877"/>
+      <stop offset="0.5" stop-color="#c9a24b"/>
+      <stop offset="1" stop-color="#9c7a2e"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="57" fill="#14110e" stroke="url(#gold)" stroke-width="3"/>
+  <circle cx="60" cy="60" r="50" fill="none" stroke="#c9a24b" stroke-opacity="0.35" stroke-width="1"/>
+  <!-- balance scale -->
+  <g stroke="url(#gold)" stroke-width="3" fill="none" stroke-linecap="round">
+    <line x1="60" y1="30" x2="60" y2="78"/>
+    <line x1="36" y1="40" x2="84" y2="40"/>
+    <circle cx="60" cy="30" r="3.2" fill="url(#gold)" stroke="none"/>
+    <path d="M36 40 L28 58 L44 58 Z" fill="#c9a24b" fill-opacity="0.18"/>
+    <path d="M84 40 L76 58 L92 58 Z" fill="#c9a24b" fill-opacity="0.18"/>
+    <line x1="48" y1="82" x2="72" y2="82"/>
+  </g>
+  <!-- CC monogram -->
+  <text x="60" y="103" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="700" fill="url(#gold)" letter-spacing="2">CC</text>
+</svg>
