@@ -72,7 +72,7 @@ test('API integration', async (t) => {
 
   await t.test('admin protection, ban/unban, moderation log', async () => {
     assert.equal((await req('GET', '/api/admin/users', { token: aliceTok })).status, 403);
-    const login = await req('POST', '/api/login', { body: { email: 'haroonsheik0127@gmail.com', password: 'admin1234' } });
+    const login = await req('POST', '/api/login', { body: { email: 'haroonsheik0127@gmail.com', password: db.ADMIN_PASSWORD } });
     assert.equal(login.status, 200); assert.equal(login.body.me.role, 'admin'); adminTok = login.body.token;
     assert.equal((await req('POST', `/api/admin/users/${aliceId}/ban`, { token: aliceTok, body: { hours: 24 } })).status, 403);
     let r = await req('POST', `/api/admin/users/${aliceId}/ban`, { token: adminTok, body: { hours: 24, reason: 'spam' } });

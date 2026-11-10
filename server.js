@@ -67,7 +67,7 @@ if (require.main === module) {
   server.listen(PORT, () => {
     console.log(`\n⚖️  CAMPUS COURT running → http://localhost:${PORT}`);
     console.log(`   Gemini keys: ${ai.keys('GEMINI_KEYS').length} | Groq keys: ${ai.keys('GROQ_KEYS').length} | Gmail: ${mail.enabled() ? 'ON' : 'dry-run'} | DEMO: ${E.DEMO !== '0'}`);
-    console.log(`   Admin login: ${db.ADMIN_EMAIL} / admin1234   |   Demo student: 21cs014@example.com / court1234\n`);
+    console.log(`   Admin login: ${db.ADMIN_EMAIL} / (password set via ADMIN_PASSWORD)   |   Demo student: 21cs014@example.com / court1234\n`);
   });
 }
 

@@ -256,7 +256,7 @@ Worked example (180 min window): Ayesha (u9,n8,f10)=8.9 → 75 min; Bilal (7,6,1
    resolve it live to show history affecting fairness. (60 s)
 6. **External invite** — file with an external email → DEMO modal shows the secure
    link → open it logged-out → landing shows expiry → register → auto-join. (40 s)
-7. **Admin** — login `haroonsheik0127@gmail.com / admin1234` → users → temp-ban 24 h
+7. **Admin** — login `haroonsheik0127@gmail.com` (password set via `ADMIN_PASSWORD`) → users → temp-ban 24 h
    with reason → banned badge → unban → moderation log. (30 s)
 8. **Close** — feed likes, mobile resize, reduced-motion. (15 s)
 
